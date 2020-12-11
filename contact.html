@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Contact us | Melbourne Marina Hotel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+ <div class="head">
+    <header class="header">
+           <h3><a href="index.html"><span  class="fa fa fa fa-hotel"></span> Melbourne Marina Hotel</a></h3>
+    </header>
+
+     <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav>
+            <div id="nav">
+              <label for="show-menu" class="show-menu"><span class="fa fa-bars"></span> Show Menu</label>
+              <input type="checkbox" id="show-menu" role="button">
+                <ul id="menu">
+                  <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                  <li><a href="rooms.html"><span class="fa fa-bed"></span> Rooms & Suites</a></li>
+                  <li><a href="booking.html"><span class="fa fa-ticket"></span> Booking</a></li>
+                  <li><a href="dining.html"><span class="fa fa-cutlery"></span> Food & Dining</a></li>
+                  <li><a href="meetings.html"><span class="fa fa-handshake-o"></span> Meetings & Events</a></li>
+                  <li><a href="offers.html"><span class="fa fa-percent"></span> Special Offers</a></li>
+                  <li><a href="gallery.html"><span class="fa fa-picture-o"></span> Picture Gallery</a></li>
+                  <li>
+                      <a href="#">More ￬</a>
+                      <ul class="hidden">
+                          <li><a href="media.html"><span class="fa fa-film"></span> Media</a></li>
+                          <li><a href="suport.html"><span class="fa fa-info-circle"></span> Customer Support </a></li>
+                          <li><a href="feedback.html"><span class="fa fa-comments"></span> Share Feedback</a></li>
+                          <li><a href="faqs.html"><span class="fa fa-question-circle"></span>FAQs</a></li>
+                          <li><a href="contact.html"><span class="fa fa-phone"></span> Contact</a></li>
+                          <li><a href="about.html"><span class="fa fa-user"></span> About Us</a></li>
+                          <li><a href="references.html" > References</a></li>              
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+
+ </div>
+
+
+  <div class="heading head-contact">
+        <h1 class="fa fa-phone"> Contact Us</h1>
+  </div>
+
+  <!--main-->                                                       
+  <div id="main" class="content">
+              <header>
+                <h2>Write Us</h2>
+              </header>
+              <p >Jot us a note and we'll get back to you as quickly as possible.</p>
+              
+              <form action="#" name="form-contact" >
+                <div class="container">
+
+                    <label for="name">Name <i class="astric">*</i></label>
+                    <input type="text" id="name" name="name" required >
+
+                    <label for="email">Email <i class="astric">*</i></label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="number">Phone Number</label>
+                    <input type="text" id="number" name="number" >
+
+                    <label for="msg">What's on your mind? <i class="astric">*</i></label>
+                    <textarea id="msg" name="msg" style="height:200px;width: 100%" required></textarea>
+                    <br><br>
+                    <button  onclick="checkEmpty();" style="width: 30%;text-align: center; background-color: blue;color: white !important;">Submit</button> 
+                </div>
+              </form>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="row">
+          <div class="column">
+              <h3>WHO WE ARE</h3>
+              <p>
+                Melbourne Marina Hotel has a unique identity among the world’s leading hotels. Simon James is the
+                managing Director of Melbourne Marina Hotel. He established the hotel in 2001. Melbourne Marina
+                Hotel now operates prestigious luxury establishment in Melbourne. Melbourne Marina Hotel is a
+                living legend, the name synonymous with luxurious comfort and impeccable service.
+              </p>
+          </div>
+          
+          <div class="column">
+             <section class="list-content">
+               <h3>OTHER LINKS</h3>
+                  <div><a href="suport.html"><span class="fa fa-info-circle"></span> Customer Support</a></div>
+                  <div><a href="feedback.html"><span class="fa fa-comments"></span> Share Feedback</a></div>
+                  <div><a href="faqs.html"><span class="fa fa-question-circle"></span> FAQs</a></div>
+                  <div><a href="contact.html"><span class="fa fa-phone"></span> Contact</a></div>
+                  <div><a href="about.html"><span class="fa fa-user"></span> About Us</a></div>
+                 <div><a href="references.html#sitemap" > Sitemap</a></div>
+            </section>
+          </div>
+          
+          <div class="column">
+            <section class="list-content">
+              <h3>FOLLOW US</h3>
+                <div><a href="#"><i class="fa fa-facebook">&nbsp;</i>Facebook</a></div>
+                <div><a href="#"><i class="fa fa-linkedin">&nbsp;</i>LinkedIn</a></div>
+                <div><a href="#"><i class="fa fa-google-plus">&nbsp;</i>Googel +</a></div>
+                <div><a href="#"><i class="fa fa-pinterest">&nbsp;</i>Pinterest</a></div>
+                <div><a href="#"><i class="fa fa-instagram">&nbsp;</i>Instagram</a></div>
+                <div><a href="#"><i class="fa fa-twitter">&nbsp;</i>Twitter</a></div>
+            </section>
+          </div>
+      </div>
+        <hr>
+        <div id="copyright">
+          © Melbourne Marina Hotel.All Rights Reserved.
+          <br>
+          <a href="https://validator.w3.org/" target="_blank"><img alt="not available" src="./images/html5.png" class="validate-icon"></a>
+      <a href="https://jigsaw.w3.org/css-validator" target="_blank"><img alt="not available" src="./images/css3.png" class="validate-icon"></a>
+        </div>
+
+      </div>
+  </footer>
+      <script src="https://use.fontawesome.com/43d0864afc.js"></script>
+      <script src="./js/main.js"></script>
+  </body>
+</html>

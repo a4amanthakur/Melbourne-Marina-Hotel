@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Feedback | Melbourne Marina Hotel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+ <div class="head">
+    <header class="header">
+           <h3><a href="index.html"><span  class="fa fa fa fa-hotel"></span> Melbourne Marina Hotel</a></h3>
+    </header>
+
+     <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav>
+            <div id="nav">
+              <label for="show-menu" class="show-menu"><span class="fa fa-bars"></span> Show Menu</label>
+              <input type="checkbox" id="show-menu" role="button">
+                <ul id="menu">
+                  <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                  <li><a href="rooms.html"><span class="fa fa-bed"></span> Rooms & Suites</a></li>
+                  <li><a href="booking.html"><span class="fa fa-ticket"></span> Booking</a></li>
+                  <li><a href="dining.html"><span class="fa fa-cutlery"></span> Food & Dining</a></li>
+                  <li><a href="meetings.html"><span class="fa fa-handshake-o"></span> Meetings & Events</a></li>
+                  <li><a href="offers.html"><span class="fa fa-percent"></span> Special Offers</a></li>
+                  <li><a href="gallery.html"><span class="fa fa-picture-o"></span> Picture Gallery</a></li>
+                  <li>
+                      <a href="#">More ￬</a>
+                      <ul class="hidden">
+                          <li><a href="media.html"><span class="fa fa-film"></span> Media</a></li>
+                          <li><a href="suport.html"><span class="fa fa-info-circle"></span> Customer Support </a></li>
+                          <li><a href="feedback.html"><span class="fa fa-comments"></span> Share Feedback</a></li>
+                          <li><a href="faqs.html"><span class="fa fa-question-circle"></span>FAQs</a></li>
+                          <li><a href="contact.html"><span class="fa fa-phone"></span> Contact</a></li>
+                          <li><a href="about.html"><span class="fa fa-user"></span> About Us</a></li>
+                          <li><a href="references.html" > References</a></li>              
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+
+ </div>
+      <div class="heading head-feedback">
+        <h1 class="fa fa-comments"> Share Feedback</h1>
+      </div>
+
+
+      <div class="alert">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+           On this winter, We provide Special Offer for you. <a href="offers.html" style="color: white;">Click Here</a>
+      </div>
+      <!--main-->
+    <div id="main" class="content feedback-form">
+      <header>
+                  <h1>Share Feedback on a Recent Stay</h1>
+                </header>
+                <p>To contact us electronically, please the online form bellow. You will recieve an immediate on-screen confirmation letting you know we have received your question or comment.
+                  <br><br>
+                  All fields are required unless otherwise noted as optional.
+                </p>
+                
+                <form action="#" name="form-contact">
+                <h2><strong>Contact Information</strong></h2>
+                  <div class="div-2-col">
+                    <div class="row">
+                    <div class="column">
+                      <label for="fname" id="lblfname">Given/First Name </label>
+                      <input type="text" id="fname" name="fname" required>
+                    </div>
+                      
+                    <div class="column">
+                         <label for="lname" id="lbllname">Surname/Last Name</label>
+                         <input type="text" id="lname" name="lname" required>
+                      </div>
+                  </div><!--row end-->
+                  </div>
+
+                  <div class="div-1-col">
+                    <label for="address" id="lbladdress">Address </label>
+                    <input type="text" id="address" name="address" required>
+                    
+                  </div>
+                    
+                  <div class="div-2-col">
+                    <div class="row">
+                    <div class="column">
+                      <label for="city" id="lblcity">City </label>
+                      <input type="text" id="city" name="city" required>
+                    </div>
+                      
+                    <div class="column">
+                       <label for="code" id="lblcode">Postal Code</label>
+                       <input type="text" id="code" name="code" required>
+                    </div>
+                  </div><!--row end-->
+                  </div>
+
+
+                  <div class="div-2-col"> 
+                    <div class="row">
+                      <div class="column" id="div-country">
+                        <label for="country" id="lblcountry">Country/Region Code </label>
+                        <input type="text" id="country" name="country" required>
+                        <p>e.g. for Australia +61</p>
+                      </div>
+                      
+                      <div class="column" id="div-phone">
+                           <label for="phone" id="lblphone">Phone Number</label>
+                           <input type="text" id="phone" name="phone" required>
+                      </div>
+                    </div>
+                  </div><!--row end-->
+
+                  <div class="div-1-col">
+                    <label for="hyatt" id="lblmsg">World of Hyatt # (Optional)</label>
+                    <input type="text" id="hyatt" name="hyatt">
+                  </div>
+
+                  <br>
+                  <h3><strong>Reservation Details</strong></h3>
+                  <h4><strong>Confirmation Number or Hotels & Dates (Choose One)</strong></h4>
+                  <p>
+                    Entering your confirmation number will help us locate your past reservation. If you can't find your confirmation number, select Hotel & Dates.
+                  </p>
+                    <input type="radio" id="con-number" name="reservation" value="con-number" >
+                    <label for="con-number" class="lbl-text">Confirmation Number</label><br>
+                    <input type="radio" id="hotel-dates" name="reservation"  value="hotel-dates">
+                    <label for="hotel-dates" class="lbl-text">Hotel & Dates</label><br>
+
+
+                  <h3><strong>Feedback Type</strong></h3>
+                 
+                      <input type="radio" id="billing" name="feedback-type" value="billing" >
+                    <label for="billing" class="lbl-text">Billing</label><br>
+
+                    <input type="radio" id="stay" name="feedback-type"  value="stay">
+                    <label for="stay" class="lbl-text">Stay Feedback</label><br>
+
+                    <input type="radio" id="service" name="feedback-type"  value="service">
+                    <label for="service" class="lbl-text">Service Feedback</label><br>
+
+                    <input type="radio" id="account" name="feedback-type"  value="account">
+                    <label for="account" class="lbl-text">Account</label><br>
+
+                    <input type="radio" id="other" name="feedback-type"  value="other">
+                    <label for="other" class="lbl-text">Other</label><br>
+
+                   <h3><strong>Feedback</strong></h3>
+                   <textarea id="msg" name="msg" style="height:100px;width: 100%" required></textarea>
+                   <p>
+                    Do not provide payment or credit card information. Maximum 500 characters.
+                   </p>
+
+                    <h3><strong>Contact Method</strong></h3>
+                 
+                      <input type="radio" id="callme" name="contact-method" value="callme" >
+                    <label for="callme" class="lbl-text">Call me</label><br>
+
+                    <input type="radio" id="email-me" name="contact-method"  value="email-me">
+                    <label for="email-me" class="lbl-text">Send me an email</label><br>
+
+                    <br>
+                    <button class="button" id="myBtn" onclick="checkEmpty();">Submit</button>
+
+                </form>
+
+
+    </div>
+
+  <footer>
+    <div class="footer">
+      <div class="row">
+          <div class="column">
+              <h3>WHO WE ARE</h3>
+              <p>
+                Melbourne Marina Hotel has a unique identity among the world’s leading hotels. Simon James is the
+                managing Director of Melbourne Marina Hotel. He established the hotel in 2001. Melbourne Marina
+                Hotel now operates prestigious luxury establishment in Melbourne. Melbourne Marina Hotel is a
+                living legend, the name synonymous with luxurious comfort and impeccable service.
+              </p>
+          </div>
+          
+          <div class="column">
+             <section class="list-content">
+               <h3>OTHER LINKS</h3>
+                  <div><a href="suport.html"><span class="fa fa-info-circle"></span> Customer Support</a></div>
+                  <div><a href="feedback.html"><span class="fa fa-comments"></span> Share Feedback</a></div>
+                  <div><a href="faqs.html"><span class="fa fa-question-circle"></span> FAQs</a></div>
+                  <div><a href="contact.html"><span class="fa fa-phone"></span> Contact</a></div>
+                  <div><a href="about.html"><span class="fa fa-user"></span> About Us</a></div>
+                 <div><a href="references.html#sitemap" > Sitemap</a></div>
+            </section>
+          </div>
+          
+          <div class="column">
+            <section class="list-content">
+              <h3>FOLLOW US</h3>
+                <div><a href="#"><i class="fa fa-facebook">&nbsp;</i>Facebook</a></div>
+                <div><a href="#"><i class="fa fa-linkedin">&nbsp;</i>LinkedIn</a></div>
+                <div><a href="#"><i class="fa fa-google-plus">&nbsp;</i>Googel +</a></div>
+                <div><a href="#"><i class="fa fa-pinterest">&nbsp;</i>Pinterest</a></div>
+                <div><a href="#"><i class="fa fa-instagram">&nbsp;</i>Instagram</a></div>
+                <div><a href="#"><i class="fa fa-twitter">&nbsp;</i>Twitter</a></div>
+            </section>
+          </div>
+      </div>
+        <hr>
+        <div id="copyright">
+          © Melbourne Marina Hotel.All Rights Reserved.
+          <br>
+          <a href="https://validator.w3.org/" target="_blank"><img alt="not available" src="./images/html5.png" class="validate-icon"></a>
+      <a href="https://jigsaw.w3.org/css-validator" target="_blank"><img alt="not available" src="./images/css3.png" class="validate-icon"></a>
+        </div>
+
+      </div>
+  </footer>
+      <script src="https://use.fontawesome.com/43d0864afc.js"></script>
+      <script  src="./js/main.js"></script>
+      <script> 
+        /* pop up display after 3 sec. of page loading*/
+        window.onload=popupWindow() ;
+      </script>
+      
+  </body>
+</html>
